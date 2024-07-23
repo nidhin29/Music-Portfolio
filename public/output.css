@@ -646,6 +646,10 @@ video {
   height: 3rem;
 }
 
+.h-16{
+  height: 4rem;
+}
+
 .h-24{
   height: 6rem;
 }
@@ -658,32 +662,12 @@ video {
   height: 1.25rem;
 }
 
-.h-8{
-  height: 2rem;
-}
-
-.h-60{
-  height: 15rem;
-}
-
 .h-52{
   height: 13rem;
 }
 
-.h-14{
-  height: 3.5rem;
-}
-
-.h-16{
-  height: 4rem;
-}
-
-.max-h-full{
-  max-height: 100%;
-}
-
-.w-11{
-  width: 2.75rem;
+.h-8{
+  height: 2rem;
 }
 
 .w-5{
@@ -694,36 +678,8 @@ video {
   width: calc(100% / 1);
 }
 
-.w-36{
-  width: 9rem;
-}
-
-.w-4{
-  width: 1rem;
-}
-
-.w-48{
-  width: 12rem;
-}
-
-.w-56{
-  width: 14rem;
-}
-
 .w-full{
   width: 100%;
-}
-
-.w-10{
-  width: 2.5rem;
-}
-
-.w-1{
-  width: 0.25rem;
-}
-
-.w-16{
-  width: 4rem;
 }
 
 .max-w-3xl{
@@ -740,14 +696,6 @@ video {
 
 .max-w-md1{
   max-width: 550;
-}
-
-.max-w-sm{
-  max-width: 24rem;
-}
-
-.max-w-full{
-  max-width: 100%;
 }
 
 .resize{
@@ -790,10 +738,6 @@ video {
   gap: 1rem;
 }
 
-.gap-2{
-  gap: 0.5rem;
-}
-
 .gap-8{
   gap: 2rem;
 }
@@ -818,20 +762,8 @@ video {
   border-width: 2px;
 }
 
-.border{
-  border-width: 1px;
-}
-
 .border-t-2{
   border-top-width: 2px;
-}
-
-.border-t{
-  border-top-width: 1px;
-}
-
-.border-t-0{
-  border-top-width: 0px;
 }
 
 .border-gray-400{
@@ -839,19 +771,14 @@ video {
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
-.border-white{
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-gray-50{
-  --tw-border-opacity: 1;
-  border-color: rgb(249 250 251 / var(--tw-border-opacity));
-}
-
 .border-gray-500{
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
+
+.border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-black{
@@ -866,20 +793,6 @@ video {
 
 .p-4{
   padding: 1rem;
-}
-
-.p-2{
-  padding: 0.5rem;
-}
-
-.px-11{
-  padding-left: 2.75rem;
-  padding-right: 2.75rem;
-}
-
-.px-14{
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
 }
 
 .px-6{
@@ -911,11 +824,6 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-xs{
@@ -990,8 +898,16 @@ video {
     width: calc(100% / 2);
   }
 
-  .sm\:max-w-sm{
-    max-width: 24rem;
+  .sm\:max-w-\[300px\]{
+    max-width: 300px;
+  }
+
+  .sm\:max-w-80{
+    max-width: 20rem;
+  }
+
+  .sm\:max-w-72{
+    max-width: 18rem;
   }
 
   .sm\:grid-cols-3{
