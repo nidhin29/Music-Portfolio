@@ -28,7 +28,7 @@ function uimg() {
 uimg();
 window.addEventListener('resize', uimg);
 
-const imageData = ["../video/video3.mp4" , "../video/video1.mp4"];
+const imageData = ["../video/video1.mp4" , "../video/video3.mp4"];
 let currentIndex = 0;
 const imageDisplay = document.getElementById('imageDisplay');
 const prevButton = document.getElementById('left-arrow');
