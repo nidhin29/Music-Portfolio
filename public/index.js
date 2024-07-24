@@ -2,6 +2,7 @@ const icon = document.querySelector('#icon');
 const item = document.querySelectorAll('.item');
 const tail = document.getElementById('tail');
 const round = document.getElementById('rounddd');
+const round2 = document.getElementById('round2');
 const map = document.getElementById('map');
 
 function umap() {
@@ -27,6 +28,20 @@ function uimg() {
 
 uimg();
 window.addEventListener('resize', uimg);
+
+function uimg2() {
+  if (window.innerWidth > 355) {
+  
+    round2.classList.remove('custom-round2');
+  } else {
+  
+    round2.classList.add('custom-round2');
+  }
+}
+
+uimg2();
+window.addEventListener('resize', uimg2);
+
 
 const imageData = ["./video/video1.mp4" , "./video/video3.mp4"];
 let currentIndex = 0;

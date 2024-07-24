@@ -859,7 +859,16 @@ video {
   width: 37% !important;
 }
 
+.custom-round2{
+  bottom: -46px !important;
+  width: 37% !important;
+}
+
 @media (min-width: 245px){
+  .sm2\:bottom-\[-46px\]{
+    bottom: -46px;
+  }
+
   .sm2\:bottom-\[-6px\]{
     bottom: -6px;
   }
@@ -898,14 +907,6 @@ video {
     width: calc(100% / 2);
   }
 
-  .sm\:max-w-\[300px\]{
-    max-width: 300px;
-  }
-
-  .sm\:max-w-80{
-    max-width: 20rem;
-  }
-
   .sm\:max-w-72{
     max-width: 18rem;
   }
@@ -927,6 +928,10 @@ video {
 @media (min-width: 455px){
   .sm1\:bottom-0{
     bottom: 0px;
+  }
+
+  .sm1\:bottom-\[-36px\]{
+    bottom: -36px;
   }
 
   .sm1\:w-\[28\%\]{

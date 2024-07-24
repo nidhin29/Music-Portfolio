@@ -16,3 +16,7 @@
 .custom-round {
   @apply !w-[37%] !bottom-[-12px];
 }
+
+.custom-round2 {
+  @apply !w-[37%] !bottom-[-46px];
+}
