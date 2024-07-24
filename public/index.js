@@ -107,4 +107,4 @@ updateImages();
 window.addEventListener('resize', updateImages);
 
 
-setInterval(updateImages, 5000);
+setInterval(updateImages, 8000);
